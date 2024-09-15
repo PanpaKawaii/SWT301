@@ -56,24 +56,5 @@
                 </div>
             </div>
         </div>
-    <script>
-        function addLink() {
-            var linkContainer = document.createElement('div');
-            linkContainer.className = 'col-6';
-            
-            var link = document.createElement('a');
-            link.href = '#';
-            link.className = 'btn btn-block btn-social';
-            link.textContent = 'New Link';
-            
-            linkContainer.appendChild(link);
-            
-            var signupRow = document.getElementById('signup');
-            signupRow.appendChild(linkContainer);
-        }
-
-        // Call the function when the page loads
-        window.onload = addLink;
-    </script>
     </body>
 </html>
