@@ -1,0 +1,100 @@
+.image-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.image-card {
+  width: calc(33.33% - 20px);
+  max-width: 400px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.image-card:hover {
+  transform: translateY(-5px);
+}
+
+.image-card img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.btn {
+  background-color: #ffff80;
+  color: white;
+  padding: 10px 20px;
+  border: 2px solid black;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: yellow;
+  transition: 0.5s ease;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+}
+
+.overlay:target {
+  visibility: visible;
+  opacity: 1;
+}
+
+.popup {
+  margin: 70px auto;
+  padding: 5px;
+  background: #fff;
+  border-radius: 5px;
+  width: 40%;
+  position: relative;
+  transition: all 5s ease-in-out;
+}
+
+.popup img {
+  width: 100%;
+}
+
+.popup h2 {
+  margin: 20px;
+  color: #333;
+  font-family: Tahoma, Arial, sans-serif;
+}
+
+.popup .close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  transition: all 200ms;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+}
+
+.popup .close:hover {
+  color: #06D85F;
+}
+
+.popup p {
+  margin: 0 20px 20px 20px;
+  max-height: 30%;
+  overflow: auto;
+}
