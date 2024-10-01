@@ -1,4 +1,3 @@
-const { I } = inject();
 const assert = require('assert');
 const resemble = require('resemblejs');
 const fs = require('fs');
