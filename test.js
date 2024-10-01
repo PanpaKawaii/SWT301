@@ -8,6 +8,9 @@ Scenario('Comparing', async ({ I }) => {
   // Home Page
   I.amOnPage('http://localhost:5173/');
 
+  // Screen Size
+  // await I.resizeWindow(1920, 1080);
+
   // Screen Shot
   await I.saveScreenshot('ScreenShot.png');
 
