@@ -1,0 +1,68 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1729782043456' stop='1729782057285'>
+    <name>SignIn/SignUp Test:</name>
+    <title>SignIn/SignUp Test:</title>
+    <test-cases>
+        <test-case start='1729782043839' status='passed' stop='1729782057192'>
+            <name>Sign in on the web page</name>
+            <title>Sign in on the web page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='codeceptjs'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1729782044247' status='passed' stop='1729782048635'>
+                    <name>I am on page "http://localhost:5173/signinsignup"</name>
+                    <title>I am on page "http://localhost:5173/signinsignup"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1729782048635' status='passed' stop='1729782049308'>
+                    <name>I fill field "Sign In Email", "nguyenvanan@gmail.com"</name>
+                    <title>I fill field "Sign In Email", "nguyenvanan@gmail.com"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1729782049309' status='passed' stop='1729782049706'>
+                    <name>I fill field "Sign In Password", "password123"</name>
+                    <title>I fill field "Sign In Password", "password123"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1729782049706' status='undefined'>
+                    <name>I click "aaaaaaaaaaaaa"</name>
+                    <title>I click "aaaaaaaaaaaaa"</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1729782051218' status='passed' stop='1729782051230'>
+                            <name>I grab htmlfrom "body"</name>
+                            <title>I grab htmlfrom "body"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1729782054514' status='passed' stop='1729782054705'>
+                            <name>I click ".btn.btn-primary"</name>
+                            <title>I click ".btn.btn-primary"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1729782054706' status='passed' stop='1729782056708'>
+                            <name>I wait 2</name>
+                            <title>I wait 2</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1729782056709' status='passed' stop='1729782057192'>
+                            <name>I see "Sign In Failed"</name>
+                            <title>I see "Sign In Failed"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

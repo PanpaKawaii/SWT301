@@ -1,0 +1,59 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1729781916549' stop='1729781924776'>
+    <name>Signup Test:</name>
+    <title>Signup Test:</title>
+    <test-cases>
+        <test-case start='1729781917025' status='failed' stop='1729781922584'>
+            <name>Sign up on the web page</name>
+            <title>Sign up on the web page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='codeceptjs'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1729781917731' status='passed' stop='1729781919782'>
+                    <name>I am on page "http://localhost:5173/signinsignup"</name>
+                    <title>I am on page "http://localhost:5173/signinsignup"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1729781919784' status='passed' stop='1729781920548'>
+                    <name>I fill field "Sign In Email", "nguyenvanan@gmail.com"</name>
+                    <title>I fill field "Sign In Email", "nguyenvanan@gmail.com"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1729781920550' status='passed' stop='1729781920965'>
+                    <name>I fill field "Sign In Password", "password123"</name>
+                    <title>I fill field "Sign In Password", "password123"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1729781920966' status='undefined'>
+                    <name>I click "aaaaaaaaaaaaa"</name>
+                    <title>I click "aaaaaaaaaaaaa"</title>
+                    <attachments>
+                        <attachment title='Main session - Last Seen Screenshot' source='07aaddb6-1a3e-4433-bbd9-e6d5ea967bd5-attachment.png' type='image/png' size='328013'/>
+                    </attachments>
+                    <steps>
+                        <step start='1729781922564' status='passed' stop='1729781922582'>
+                            <name>I grab htmlfrom "body"</name>
+                            <title>I grab htmlfrom "body"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Clickable element "aaaaaaaaaaaaa" was not found by text|CSS|XPath</message>
+                <stack-trace>Error: Clickable element "aaaaaaaaaaaaa" was not found by text|CSS|XPath
+                    at new ElementNotFound (C:\Users\ASUS\Downloads\AI_Testing\node_modules\codeceptjs\lib\helper\errors\ElementNotFound.js:15:11)
+                    at assertElementExists (C:\Users\ASUS\Downloads\AI_Testing\node_modules\codeceptjs\lib\helper\Playwright.js:3742:11)
+                    at Playwright.proceedClick (C:\Users\ASUS\Downloads\AI_Testing\node_modules\codeceptjs\lib\helper\Playwright.js:3501:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
