@@ -23,19 +23,19 @@ exports.config = {
     I: "./steps_file.js",
   },
   name: "ai_test",
-  ai: {
-    request: async (messages) => {
-      const OpenAI = require("openai");
-      const openai = new OpenAI({ apiKey: process.env["OPENAI_API_KEY"] });
+  // ai: {
+  //   request: async (messages) => {
+  //     const OpenAI = require("openai");
+  //     const openai = new OpenAI({ apiKey: process.env["OPENAI_API_KEY"] });
 
-      const completion = await openai.chat.completions.create({
-        model: "gpt-3.5-turbo-0125",
-        messages,
-      });
+  //     const completion = await openai.chat.completions.create({
+  //       model: "gpt-3.5-turbo-0125",
+  //       messages,
+  //     });
 
-      return completion?.choices[0]?.message?.content;
-    },
-  },
+  //     return completion?.choices[0]?.message?.content;
+  //   },
+  // },
   plugins: {
     heal: {
       enabled: true,
