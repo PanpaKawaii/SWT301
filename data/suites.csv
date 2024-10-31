@@ -1,0 +1,8 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","7730","User signup with existing email","","Tue Oct 29 02:17:01 ICT 2024","passed","Tue Oct 29 02:17:08 ICT 2024","","Login And Signup:","Login And Signup:","User signup with existing email"
+"","7504","User login successfully","","Tue Oct 29 02:15:14 ICT 2024","passed","Tue Oct 29 02:15:21 ICT 2024","","Login And Signup:","Login And Signup:","User login successfully"
+"","5805","User attempts to login with empty fields","","Tue Oct 29 02:02:59 ICT 2024","passed","Tue Oct 29 02:03:04 ICT 2024","","login:","login:","User attempts to login with empty fields"
+"","8480","User login with invalid credentials","","Tue Oct 29 02:02:50 ICT 2024","passed","Tue Oct 29 02:02:59 ICT 2024","","login:","login:","User login with invalid credentials"
+"","6699","User login with invalid credentials","","Tue Oct 29 02:15:21 ICT 2024","passed","Tue Oct 29 02:15:28 ICT 2024","","Login And Signup:","Login And Signup:","User login with invalid credentials"
+"","10263","User login successfully","","Tue Oct 29 02:02:40 ICT 2024","passed","Tue Oct 29 02:02:50 ICT 2024","","login:","login:","User login successfully"
+"","5328","User attempts to login with empty fields","","Tue Oct 29 02:15:28 ICT 2024","passed","Tue Oct 29 02:15:33 ICT 2024","","Login And Signup:","Login And Signup:","User attempts to login with empty fields"
